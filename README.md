@@ -1,5 +1,7 @@
 # Hi, I'm Ilya Anshmidt 👋
 
+<img src="https://github.com/anshmidt/anshmidt/assets/12444628/3831d5a2-188b-4536-9293-4814af96251e" width="280"/>
+
 Dedicated Android developer with 6 years of hands-on experience (including 3.5 years of commercial experience). Proficient in Kotlin, Java, Android SDK, and industry best practices. Deep background in test automation. 
 
 Contributor to a high-impact shopping app with 10M+ downloads, collaborating in an international cross-functional team for a leading sportswear company. Played a key role in improving unit test coverage, implementing A/B tests, enhancing analytics, and conducting demos. 
@@ -8,7 +10,6 @@ Actively participated in the development of various projects, from real-time mes
 I am a team player and have experience working with people from different countries, cultures and time zones. I'm comfortable working with cross-functional teams, and am able to communicate effectively with both technical and non-technical team members.
 
 I am eager to bring my skills and experience to a dynamic and innovative company where I can continue to grow as a developer and contribute to the development of cutting-edge mobile applications.
-
 <br/><br/>
 
 # My stack
@@ -27,7 +28,6 @@ Technologies that i'm most familiar with:
 # How to reach me
 - Email: anshmidt.ilya@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/ilya-anshmidt-40201a138/)
-
 <br/><br/>
 
 # My latest personal projects 
@@ -44,7 +44,6 @@ Technologies that i'm most familiar with:
 - Room 
 - Jetpack DataStore 
 - Koin
-
 <br/><br/>
 
 ## 2. MultiAlarm
@@ -67,7 +66,6 @@ Alarms simply ring according to schedule until you turn them off from the main m
 - Koin
 - Mockito
 - Robolectric
-
 <br/><br/>
 
 ## 3. iTunes Albums
@@ -85,7 +83,6 @@ Alarms simply ring according to schedule until you turn them off from the main m
 <img src="https://user-images.githubusercontent.com/12444628/74482886-67c9f000-4ec6-11ea-8648-51a725d7652a.gif" alt="Screen 1" width="280"/>
 <br/><br/>
 
-
 ### Used technologies:
 - Kotlin
 - MVP
@@ -93,7 +90,6 @@ Alarms simply ring according to schedule until you turn them off from the main m
 - RxJava
 - Dagger
 - Glide
-
 <br/><br/> 
 
 ## 4. PriceMonitor
