@@ -30,16 +30,34 @@ Technologies that i'm most familiar with:
 
 # My latest personal projects 
 ## 1. NoteList
-[NoteList](https://github.com/anshmidt/NoteList) is an Android app for writing notes and organizing them into lists.
-![notelist screenshots](https://user-images.githubusercontent.com/12444628/222925488-abc44943-4e93-4c6f-9f42-9faa32e7f93f.png)
+[NoteList](https://github.com/anshmidt/NoteList) is an Android app for writing notes and organizing them into lists.  
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/dfc0b260-c124-49fc-9cbd-8d4975a3d857" width="280"/>
+<br/><br/>
 
 ### Key features:
-- Minimalist interface allows user to create notes and organize them into a list in a matter seconds
-- Notes can have different priorities, so important notes don't get lost and are always on top
+- Minimalist interface allows user to create notes and organize them into a list in a matter seconds:
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/0963bcef-0a17-467d-a74a-fc3b279ac194" width="280"/>
+<br/><br/>
+
+- Notes can have different priorities, so important notes don't get lost and are always on top:
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/9720a90d-91e1-4f59-b7a0-ead78478eddc" width="280"/>
+<br/><br/>
+
 - Deleted notes go to the trash, giving users the option to move notes back. Old notes are automatically removed from the trash.
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/7a4ab70a-c72b-48b9-bcdb-50277db88866" width="280"/>
+<br/><br/>
+
 - Data is automatically saved as user types
-- Global search allows user to find a note from any list or from the trash
-- Options to export entire list to clipboard, and to import multiple notes from clipboard
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/69b3bf29-49e6-4f01-b31a-bfc58005bf14" width="280"/>
+<br/><br/>
+
+- Global search allows user to find a note from any list or from the trash:
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/826ba605-a62c-4ea5-af4f-d22e305fa2df" width="280"/>
+<br/><br/>
+
+- Options to export entire list to clipboard, and to import multiple notes from clipboard:  
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/a41402cb-79ea-449b-9285-18d1aed8775c" width="280"/>
+<br/><br/>
 
 ### Used technologies:
 - Jetpack Compose 
@@ -56,7 +74,7 @@ Technologies that i'm most familiar with:
 
 ![multialarm screenshots](https://user-images.githubusercontent.com/12444628/236220779-4f383ccc-a2a8-4774-a21a-d8743cc0a098.png)
 <br/><br/>
-Unlike most alarm apps, MultiAlarm doesn’t force you to choose between “snooze” and “dismiss” when you've just woken up and only want to stop that annoying thing ringing. It's not possible to accidentally turn off all the alarms when trying to dismiss a ringing alarm.<br/><br/>
+Unlike most alarm apps, MultiAlarm doesn’t force you to choose between “snooze” and “dismiss” when you've just woken up and only want to stop that annoying thing ringing. It's impossible to accidentally turn off all the alarms when trying to dismiss a ringing alarm.<br/><br/>
 Alarms simply ring according to schedule until you turn them off from the main menu.
 
 <img src="https://user-images.githubusercontent.com/12444628/236221916-f7caa908-7436-4c1a-96f9-0a59f7e224f6.gif" width="280"/>
