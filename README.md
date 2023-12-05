@@ -8,8 +8,6 @@ Contributor to a high-impact shopping app with 10M+ downloads, collaborating in 
 Actively participated in the development of various projects, from real-time messaging services, voice calling apps to a 3D effects video app.
 
 I am a team player and have experience working with people from different countries, cultures and time zones. I'm comfortable working with cross-functional teams, and am able to communicate effectively with both technical and non-technical team members.
-
-I am eager to bring my skills and experience to a dynamic and innovative company where I can continue to grow as a developer and contribute to the development of cutting-edge mobile applications.
 <br/><br/>
 
 # My stack
@@ -35,6 +33,13 @@ Technologies that i'm most familiar with:
 [NoteList](https://github.com/anshmidt/NoteList) is an Android app for writing notes and organizing them into lists.
 ![notelist screenshots](https://user-images.githubusercontent.com/12444628/222925488-abc44943-4e93-4c6f-9f42-9faa32e7f93f.png)
 
+### Key features:
+- Minimalist interface allows user to create notes and organize them into a list in a matter seconds
+- Notes can have different priorities, so important notes don't get lost and are always on top
+- Deleted notes go to the trash, giving users the option to move notes back. Old notes are automatically removed from the trash.
+- Data is automatically saved as user types
+- Global search allows user to find a note from any list or from the trash
+- Options to export entire list to clipboard, and to import multiple notes from clipboard
 
 ### Used technologies:
 - Jetpack Compose 
