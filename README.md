@@ -35,23 +35,23 @@ Technologies that i'm most familiar with:
 <br/><br/>
 
 ### Key features:
-- Minimalist interface allows user to create notes and organize them into a list in a matter seconds:
+- Minimalist interface allows user to create notes and organize them into a list in a matter seconds:  
 <img src="https://github.com/anshmidt/multialarm/assets/12444628/71df3906-1b2c-4c29-a6f7-739c4d500ecd" width="280"/>  
 <br/><br/>
 
-- Notes can have different priorities, so important notes don't get lost and are always on top:
+- Notes can have different priorities, so important notes don't get lost and are always on top:  
 <img src="https://github.com/anshmidt/multialarm/assets/12444628/0930fd39-097b-4c7e-aa1d-4d426bbc2f53" width="280"/>  
 <br/><br/>
 
-- Deleted notes go to the trash, giving users the option to move notes back. Old notes are automatically removed from the trash.
+- Deleted notes go to the trash, giving users the option to move notes back. Old notes are automatically removed from the trash.  
 <img src="https://github.com/anshmidt/multialarm/assets/12444628/67a49730-a764-4840-898a-32761f2bdf8d" width="280"/>  
 <br/><br/>
 
-- Data is automatically saved as user types
+- Data is automatically saved as user types  
 <img src="https://github.com/anshmidt/multialarm/assets/12444628/d21a2ea5-24a5-4e76-a1df-22106638f796" width="280"/>  
 <br/><br/>
 
-- Global search allows user to find a note from any list or from the trash:
+- Global search allows user to find a note from any list or from the trash:  
 <img src="https://github.com/anshmidt/multialarm/assets/12444628/9d7f9a71-91ad-44b9-8b77-d1c33def89d9" width="280"/>  
 <br/><br/>
 
