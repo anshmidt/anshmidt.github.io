@@ -26,6 +26,7 @@ Technologies that i'm most familiar with:
 # How to reach me
 - Email: anshmidt.ilya@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/ilya-anshmidt-40201a138/)
+- [My GitHub](https://github.com/anshmidt)
 <br/><br/>
 
 # My latest personal projects 
