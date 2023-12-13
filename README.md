@@ -30,7 +30,87 @@ Technologies that i'm most familiar with:
 <br/><br/>
 
 # My latest personal projects 
-## 1. NoteList
+
+## 1. MultiAlarm
+[MultiAlarm](https://github.com/anshmidt/multialarm) is an alarm clock app for Android. It is designed to help users who likes to set multiple alarm clocks for waking up in the morning. It provides simple and effective way to manage them all at once.
+
+![multialarm screenshots](https://user-images.githubusercontent.com/12444628/236220779-4f383ccc-a2a8-4774-a21a-d8743cc0a098.png)
+<br/><br/><br/>
+Unlike most alarm apps, MultiAlarm doesn’t force user to choose between “snooze” and “dismiss” when he has just woken up and only wants to stop that annoying thing ringing. It's impossible to accidentally turn off all the alarms when trying to dismiss a ringing alarm.   
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/68d51298-c18c-4658-b991-55d73338e814" width="280"/>
+<br/><br/>
+
+Alarms simply ring on schedule until the user turns them off from the main menu. 
+
+It's super easy to manage many alarms all at once. The user simply sets the time of the first alarm, the interval between alarms and the number of alarms. The switch can turn on and off all the alarms together.  
+<img src="https://github.com/anshmidt/multialarm/assets/12444628/0acf2f18-c690-41ff-b68e-81bb72dfdd25" width="280"/>
+<br/><br/>
+
+### Used technologies:
+- Kotlin
+- MVVM
+- LiveData
+- Data Binding
+- Kotlin Flow
+- Preferences DataStore
+- Koin
+- Mockito
+- Robolectric
+<br/><br/>
+
+## 2. iTunes Albums
+[This Android app](https://github.com/anshmidt/iTunesAlbums) displays musical albums from iTunes.
+
+<img src="https://user-images.githubusercontent.com/12444628/74474995-a0ae9880-4eb7-11ea-8929-1bfaf8d76199.png" alt="Screen 1" width="1000"/>
+
+
+### Key features:
+- When the user opens the app, a list of suggested albums is displayed.
+- The user can search for an album and find any album available in iTunes.
+- On the screen with the detailed information about the album, the user can find a full-size artwork, the price of the album, the genre and the list of the songs.
+- Downloaded images and iTunes server responses are cached.
+
+<img src="https://user-images.githubusercontent.com/12444628/74482886-67c9f000-4ec6-11ea-8648-51a725d7652a.gif" alt="Screen 1" width="280"/>
+<br/><br/>
+
+### Used technologies:
+- Kotlin
+- MVP
+- Retrofit
+- RxJava
+- Dagger
+- Glide
+<br/><br/> 
+
+## 3. PriceMonitor
+
+[Android app](https://github.com/anshmidt/pricemonitor) for monitoring prices in online stores. The price trend is displayed on a graph.  
+
+<img src="https://user-images.githubusercontent.com/12444628/62247221-1193d480-b3ee-11e9-8418-d6378190ad1f.jpg" alt="Screen 1" width="280"/>
+
+The app regularly checks the prices of products in online stores bookmarked by the user. If the price has dropped, a notification is sent to the user, suggesting that now might be a good time to order the product because the price has dropped.  
+<img src="https://user-images.githubusercontent.com/12444628/62247025-9df1c780-b3ed-11e9-92ef-0c8640da57fd.gif" alt="Screen 1" width="280"/>
+
+### Key features:
+- Prices of the product are scraped from websites selected by the user.
+- PriceMonitor periodically sends price requests.
+- Data from previous requests is stored in a database.
+- Price trends for a single product from different stores are displayed on a graph, providing an easy way to see the trend and compare prices in different stores.
+- To add a new product, the user enters its name and URL. The URL is validated, and if it belongs to a known online store, the price is automatically retrieved.
+- If the background service detects that the price has dropped significantly (for example, more than 5%), it displays a notification about the dropped price.
+
+### Used technologies:
+- Java
+- Volley - for HTTP requests
+- Room - provides an abstraction layer over SQLite
+- WorkManager API - for scheduling requests
+- [GraphView by jjoe64](https://github.com/jjoe64/GraphView) - for displaying price trends on a graph
+- Dagger 2 - for dependency injection
+- TextDrawable - for displaying store icons
+- Jsoup - for HTML parsing
+<br/><br/>
+
+## 4. NoteList
 [NoteList](https://github.com/anshmidt/NoteList) is an Android app for writing notes and organizing them into lists.  
 <img src="https://github.com/anshmidt/multialarm/assets/12444628/6853f9d4-3bfd-45ed-8717-d78eb61fe3c7" width="280"/>  
 <br/><br/>
@@ -69,83 +149,5 @@ Technologies that i'm most familiar with:
 - Jetpack DataStore 
 - Koin
 <br/><br/>
-
-## 2. MultiAlarm
-[MultiAlarm](https://github.com/anshmidt/multialarm) is an alarm clock app for Android. It is designed to help users who likes to set multiple alarm clocks for waking up in the morning. It provides simple and effective way to manage them all at once.
-
-![multialarm screenshots](https://user-images.githubusercontent.com/12444628/236220779-4f383ccc-a2a8-4774-a21a-d8743cc0a098.png)
-<br/><br/><br/>
-Unlike most alarm apps, MultiAlarm doesn’t force user to choose between “snooze” and “dismiss” when he has just woken up and only wants to stop that annoying thing ringing. It's impossible to accidentally turn off all the alarms when trying to dismiss a ringing alarm.   
-<img src="https://github.com/anshmidt/multialarm/assets/12444628/68d51298-c18c-4658-b991-55d73338e814" width="280"/>
-<br/><br/>
-
-Alarms simply ring on schedule until the user turns them off from the main menu. 
-
-It's super easy to manage many alarms all at once. The user simply sets the time of the first alarm, the interval between alarms and the number of alarms. The switch can turn on and off all the alarms together.  
-<img src="https://github.com/anshmidt/multialarm/assets/12444628/0acf2f18-c690-41ff-b68e-81bb72dfdd25" width="280"/>
-<br/><br/>
-
-### Used technologies:
-- Kotlin
-- MVVM
-- LiveData
-- Data Binding
-- Kotlin Flow
-- Preferences DataStore
-- Koin
-- Mockito
-- Robolectric
-<br/><br/>
-
-## 3. iTunes Albums
-[This Android app](https://github.com/anshmidt/iTunesAlbums) displays musical albums from iTunes.
-
-<img src="https://user-images.githubusercontent.com/12444628/74474995-a0ae9880-4eb7-11ea-8929-1bfaf8d76199.png" alt="Screen 1" width="1000"/>
-
-
-### Key features:
-- When the user opens the app, a list of suggested albums is displayed.
-- The user can search for an album and find any album available in iTunes.
-- On the screen with the detailed information about the album, the user can find a full-size artwork, the price of the album, the genre and the list of the songs.
-- Downloaded images and iTunes server responses are cached.
-
-<img src="https://user-images.githubusercontent.com/12444628/74482886-67c9f000-4ec6-11ea-8648-51a725d7652a.gif" alt="Screen 1" width="280"/>
-<br/><br/>
-
-### Used technologies:
-- Kotlin
-- MVP
-- Retrofit
-- RxJava
-- Dagger
-- Glide
-<br/><br/> 
-
-## 4. PriceMonitor
-
-[Android app](https://github.com/anshmidt/pricemonitor) for monitoring prices in online stores. The price trend is displayed on a graph.  
-
-<img src="https://user-images.githubusercontent.com/12444628/62247221-1193d480-b3ee-11e9-8418-d6378190ad1f.jpg" alt="Screen 1" width="280"/>
-
-The app regularly checks the prices of products in online stores bookmarked by the user. If the price has dropped, a notification is sent to the user, suggesting that now might be a good time to order the product because the price has dropped.  
-<img src="https://user-images.githubusercontent.com/12444628/62247025-9df1c780-b3ed-11e9-92ef-0c8640da57fd.gif" alt="Screen 1" width="280"/>
-
-### Key features:
-- Prices of the product are scraped from websites selected by the user.
-- PriceMonitor periodically sends price requests.
-- Data from previous requests is stored in a database.
-- Price trends for a single product from different stores are displayed on a graph, providing an easy way to see the trend and compare prices in different stores.
-- To add a new product, the user enters its name and URL. The URL is validated, and if it belongs to a known online store, the price is automatically retrieved.
-- If the background service detects that the price has dropped significantly (for example, more than 5%), it displays a notification about the dropped price.
-
-### Used technologies:
-- Java
-- Volley - for HTTP requests
-- Room - provides an abstraction layer over SQLite
-- WorkManager API - for scheduling requests
-- [GraphView by jjoe64](https://github.com/jjoe64/GraphView) - for displaying price trends on a graph
-- Dagger 2 - for dependency injection
-- TextDrawable - for displaying store icons
-- Jsoup - for HTML parsing 
 
 
